@@ -16,12 +16,12 @@
     padding: 0;
 }
 
-.navbar li {
+.navbar ul li {
     display: inline;
     margin: 0 1em;
 }
 
-.navbar a {
+.navbar ul li a {
     color: #fff;
     text-decoration: none;
 
@@ -64,21 +64,21 @@
     transition: transform 0.3s;
 
 }
-.portfolio-item h3{
-    font-weight:bold;
+.portfolio-item h3 {
+    font-weight: bold;
     margin-bottom:0.5em;
 
 }
-.portfolio-item p{
+.portfolio-item p {
     margin-bottom: 0.5em;
     color:#666
 }
-.portfolio-item img{
-    width:100%;
-    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.1);
+.portfolio-item img {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-.portfolio-item:hover{
-    transform:scale(1.05);
+.portfolio-item:hover {
+    transform: scale(1.05);
 
 }
 #footer {
